@@ -1,8 +1,14 @@
 # Comparative Analysis of Human Oral Microbiome Communities in Health and Disease Project
-The code and images in the repo are mainly for the result and analysis part of the final project. Running the following code in this directory will allows you to generate the pie chart for your data. However, you do have to specifiy your path in the code of where your data set (that ends with the motus.ratio.genus) are. After that, all figures will be automatically generate showing the relative frequency of all bacteria genus in the sample. 
+The code and figures in the repo are mainly for the result and analysis part of the final project. Running the following code in this directory will allow you to generate the pie chart for your data. However, you do have to specify your path in the code of where your data set (that ends with the Motus.ratio.genus) is. After that, all figures will be automatically generated showing the relative frequency of all bacteria genera in the sample. There is also a CSV name sample_name which defines which sample we are looking at and the condition of the sample. 
 
+```
+python main.py
+```
 
-```markdown
-python main.py 
+Make sure to modify the directory to yours:
+```
+directory = '/Users/weiwei/cu/cs4775/motus_output'  # Replace this with your directory path
+```
+
 
 

@@ -10,5 +10,12 @@ Make sure to modify the directory to yours:
 directory = '/Users/weiwei/cu/cs4775/motus_output'  # Replace this with your directory path
 ```
 
+The Code also includes the PCA where running the command
+
+```
+python PCA_plot_genus.py
+```
+
+will generate several PCA figures which is something we work on in the workdir at BIOHPC
 
 
